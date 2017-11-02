@@ -8,11 +8,11 @@ Your program must use three classes to model the particles. A "Normal" particle 
 
 Suggested steps to completing this assignment
 -----------------------------------
-1. Fork [this repository](https://github.com/APCSLowell/Starfield)  
-2. First, finish the `NormalParticle` class. It will need the following members:
+1. Make sure you are familiar with the project slides on [interfaces](https://docs.google.com/presentation/d/1vOCgtcNxi8s7yHhDNkRKhCWtrxcccRFSP7vneOHBnFg/edit?usp=sharing),  [math](https://docs.google.com/presentation/d/1gGx5oyq06YzQzh_AZLD1SfGlyFj7bKSCa_kjBKnnALY/edit?usp=sharing), and  [inheritance](https://docs.google.com/presentation/d/1nl_rSZknBAdx7dWppJOHJD_fadOQgfmi3EennaqoN3U/edit?usp=sharing).
+2. To get started programming, first write the `NormalParticle` class. It will need the following members:
   * 5 member variables: X and Y positions, Color, Angle and Speed. (Hint: use doubles for X, Y, Speed and Angle)
-  * `NormalParticle()`, the class constructor
-  * `void move()`, Takes the cos of the angle times the speed and adds it to the X coordinate. Does the same to Y with the sin of the angle.
+  * `NormalParticle()`, which is the constructor for the class
+  * `void move()`, which takes the `cos` of the angle times the speed and adds it to the X coordinate. Does the same to Y with the `sin` of the angle.
   * `void show()`, draws the particle in the correct color
 3. Now finish the program's `setup()` and `draw()`
 4. Add one `NormalParticle` variable, and make sure you can see it move
