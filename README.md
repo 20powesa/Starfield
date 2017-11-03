@@ -1,4 +1,4 @@
-Starfield (with an Oddball and Jumbo)
+Starfield
 =========================
 For this assignment you will make a animation of fireworks. This common animation is called a "starfield" since it can also be used to simulate movement through a field of stars. Credit: Art Simon, Lowell HS
  
