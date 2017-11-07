@@ -71,7 +71,8 @@ class oddballParticle implements particle {
     angle = Math.random() * Math.PI * 2;
     myColor = color(0);
     //Gets John Krasinski's face from the computer and resizes it
-    John = loadImage("John.jpg");
+    String url = ("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/John_Krasinski_and_Josh_Wood_%28cropped%29.jpg/330px-John_Krasinski_and_Josh_Wood_%28cropped%29.jpg");
+    John = loadImage(url, "jpg");
     John.resize(50, 0);
   }
   public void move() {
