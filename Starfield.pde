@@ -1,4 +1,4 @@
-//Starfield projects by Sam Powers 11/7/17 
+//Starfield project by Sam Powers 11/7/17 
 //Declaring particle array
 particle[] particles;
 void setup() {
