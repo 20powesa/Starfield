@@ -74,7 +74,7 @@ class oddballParticle implements particle {
     //Gets John Krasinski's face from the computer and resizes it
     url = ("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/John_Krasinski_and_Josh_Wood_%28cropped%29.jpg/330px-John_Krasinski_and_Josh_Wood_%28cropped%29.jpg");
     John = loadImage(url, "jpg");
-    John.resize(50, 0);
+    John.resize(20, 0);
   }
   public void move() {
     x += Math.tan(angle) * speed;
